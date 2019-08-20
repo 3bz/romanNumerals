@@ -14,7 +14,9 @@ public class testIntToNumeral {
     {
         return Arrays.asList(new Object [][]
                 {
-                        {0,""}, {1,"i"}
+                        {0,""}, {1,"i"}, {2, "ii"}, {3, "iii"}, {5, "v"},
+                        {10, "x"}, {6, "vi"}, {4, "iv"}, {16, "xvi"}, {28, "xxviii"},
+                        {9, "ix"}, {19, "xix"}, {29, "xxix"}
                 });
     }
 
